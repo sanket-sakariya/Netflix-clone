@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assestes/images/bg.jpg");
+    height: 644px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:(1200px,100vw);
+}
+.main .box
+{
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.69;
+
+
+}
+nav{
+    max-width: 70vw;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height:572px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family:'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+
+}
+.hero> :nth-child(1){
+    font-size: 3rem;
+    font-weight: bolder;
+    gap: 30px;
+}
+.hero> :nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.hero> :nth-child(3){
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.separate{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.btn{
+    /* padding:8px 24px; */
+    font-weight: bold;
+    background-color:white;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.btn-lang{
+    padding: 5px 20px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 234, 234, 0.5);
+    margin-left: 20px;
+
+}
+input{
+    padding:16px 48px;
+    background-color:rgb(23, 23, 23,0.2);
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 234, 234, 0.5);
+
+}
+.btn-red-nav{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    border: 1px solid rgba(246, 234, 234, 0.5);
+
+}
+.btn-red-main{
+    padding:16px 48px;
+    background-color: red ;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgba(246, 234, 234, 0.5);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 500px;
+    position: relative;
+    z-index: 10;
+
+}
+.secimg video{
+    position: absolute;
+    top: 85px;
+    right: 75px;
+    width: 350px;
+}
+
+
+.first> div :first-child{
+    font-size: 48px;
+    font-weight: bold;
+}
+section.first > div {
+    display: flex;
+    flex-direction: column;
+}
+.first> div :nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+}
+.first> div :nth-child(3){
+    font-size: 24px;
+    font-weight: bold;
+}
+.secimg1{
+    position: relative;
+}
+.secimg1 img{
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+.secimg1 video{
+    position: absolute;
+    top: 27px;
+    right: 100px;
+    width: 315px;
+}
+.faq .box{
+    color: white;
+    background-color:rgba(80, 64, 64, 0.8);
+    padding: 30px;
+    width: 93.8vw; 
+    display: flex;
+    justify-content: space-between;
+    margin:10px auto;
+    max-width: 70vw;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-out;
+
+
+}
+
+.faq .box:hover{
+    background-color: rgb(162, 136, 136);
+    
+}
+.faq{  
+
+    background-color:black
+
+
+}
+.faq h2{
+    text-align: center;
+    padding: 34px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.faq .box svg{
+    filter: invert(1);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 60vw;
+    gap: 40px;
+    padding: 20px;
+}
+.footer a{
+    color: white;
+}
+.hero1{
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family:'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+@media screen and (max-width:1300px){
+    .first{
+        flex-wrap: wrap;
+        padding: 34px;
+    }
+
+}
